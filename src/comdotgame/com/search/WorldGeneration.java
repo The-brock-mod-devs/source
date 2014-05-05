@@ -36,7 +36,7 @@ public class WorldGeneration implements IWorldGenerator {
 			   int yCoord = random.nextInt(60);
 			   int zCoord = j + random.nextInt(16);
 			   
-			   (new WorldGenMinable(Mylittlepony.brock, 16)).generate(world, random, xCoord, yCoord, zCoord);
+			   (new WorldGenMinable(MyLittlePony.brock_ore, 16)).generate(world, random, xCoord, yCoord, zCoord);
 			  }
 		// TODO Auto-generated method stub
 		

@@ -1,10 +1,19 @@
-this=this+this
-code=shrirge
-tile.brock.name=Brock Block
-item.Brarge.name=BrargE
-item.Helix.name=Helix Fossil
-item.BrockPick.name=Brock Pickaxe
-helix=OAK: %s! Now is not the time to use that!
-tile.brockbox.name=JukeBrox-WIP NO USE YET DONT WASTE YOUR DIAMONDS ON IT!
-item.BrockShovel.name=Brock Shovel
-item.PorkHammer.name=Pork Hammer
+# Block Translations
+tile.brock_ore.name=Brock Ore
+tile.brock_block.name=Brock Block
+tile.jukebrox.name=JukeBrox [Incomplete]
+tile.brock_furnace.name=Brock Furnace
+tile.lit_brock_furnace.name=Lit Brock Furnace
+tile.brock_centrifuge.name=Brock Centrifuge [Incomplete]
+
+# Item Translations
+item.brarge.name=BrargE
+item.helix_fossil.name=Helix Fossil
+item.brock_pickaxe.name=Brock Pickaxe
+item.brock_shovel.name=Brock Shovel
+item.pork_hammer.name=Pork Hammer
+
+# Misc. Translations
+message.helix_fossil=OAK: %s! Now is not the time to use that!
+itemGroup.brock=Brock Mod
+container.brock_furnace=Brock Furnace

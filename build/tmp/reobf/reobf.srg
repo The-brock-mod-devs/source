@@ -254,7 +254,7 @@ CL: net/minecraft/block/BlockFenceGate net/minecraft/block/BlockFenceGate
 CL: net/minecraft/block/BlockFire net/minecraft/block/BlockFire
 CL: net/minecraft/block/BlockFlower net/minecraft/block/BlockFlower
 CL: net/minecraft/block/BlockFlowerPot net/minecraft/block/BlockFlowerPot
-CL: net/minecraft/block/BlockFurnace net/minecraft/block/BlockFurnace
+CL: net/minecraft/block/BlockFurnace comdotgame/com/search/BlockBrockFurnace
 CL: net/minecraft/block/BlockGlass net/minecraft/block/BlockGlass
 CL: net/minecraft/block/BlockGlowstone net/minecraft/block/BlockGlowstone
 CL: net/minecraft/block/BlockGrass net/minecraft/block/BlockGrass
@@ -2871,11 +2871,11 @@ FD: net/minecraft/block/BlockFlower/field_149861_N net/minecraft/block/BlockFlow
 FD: net/minecraft/block/BlockFlower/field_149862_O net/minecraft/block/BlockFlower/field_149862_O
 FD: net/minecraft/block/BlockFlower/field_149859_a net/minecraft/block/BlockFlower/field_149859_a
 FD: net/minecraft/block/BlockFlower/field_149858_b net/minecraft/block/BlockFlower/field_149858_b
-FD: net/minecraft/block/BlockFurnace/field_149934_M net/minecraft/block/BlockFurnace/field_149934_M
-FD: net/minecraft/block/BlockFurnace/field_149935_N net/minecraft/block/BlockFurnace/field_149935_N
-FD: net/minecraft/block/BlockFurnace/field_149936_O net/minecraft/block/BlockFurnace/field_149936_O
-FD: net/minecraft/block/BlockFurnace/field_149933_a net/minecraft/block/BlockFurnace/field_149933_a
-FD: net/minecraft/block/BlockFurnace/field_149932_b net/minecraft/block/BlockFurnace/field_149932_b
+FD: net/minecraft/block/BlockFurnace/field_149934_M comdotgame/com/search/BlockBrockFurnace/field_149934_M
+FD: net/minecraft/block/BlockFurnace/field_149935_N comdotgame/com/search/BlockBrockFurnace/field_149935_N
+FD: net/minecraft/block/BlockFurnace/field_149936_O comdotgame/com/search/BlockBrockFurnace/field_149936_O
+FD: net/minecraft/block/BlockFurnace/field_149933_a comdotgame/com/search/BlockBrockFurnace/field_149933_a
+FD: net/minecraft/block/BlockFurnace/field_149932_b comdotgame/com/search/BlockBrockFurnace/field_149932_b
 FD: net/minecraft/block/BlockGrass/field_149993_M net/minecraft/block/BlockGrass/field_149993_M
 FD: net/minecraft/block/BlockGrass/field_149994_N net/minecraft/block/BlockGrass/field_149994_N
 FD: net/minecraft/block/BlockGrass/logger net/minecraft/block/BlockGrass/field_149992_a
@@ -10495,20 +10495,20 @@ MD: net/minecraft/block/BlockFlowerPot/getItem (Lnet/minecraft/world/World;III)L
 MD: net/minecraft/block/BlockFlowerPot/func_149929_e (Lnet/minecraft/world/World;III)Lnet/minecraft/tileentity/TileEntityFlowerPot; net/minecraft/block/BlockFlowerPot/func_149929_e (Lnet/minecraft/world/World;III)Lnet/minecraft/tileentity/TileEntityFlowerPot;
 MD: net/minecraft/block/BlockFlowerPot/setBlockBoundsForItemRender ()V net/minecraft/block/BlockFlowerPot/func_149683_g ()V
 MD: net/minecraft/block/BlockFlowerPot/getDamageValue (Lnet/minecraft/world/World;III)I net/minecraft/block/BlockFlowerPot/func_149643_k (Lnet/minecraft/world/World;III)I
-MD: net/minecraft/block/BlockFurnace/hasComparatorInputOverride ()Z net/minecraft/block/BlockFurnace/func_149740_M ()Z
-MD: net/minecraft/block/BlockFurnace/getIcon (II)Lnet/minecraft/util/IIcon; net/minecraft/block/BlockFurnace/func_149691_a (II)Lnet/minecraft/util/IIcon;
-MD: net/minecraft/block/BlockFurnace/getItemDropped (ILjava/util/Random;I)Lnet/minecraft/item/Item; net/minecraft/block/BlockFurnace/func_149650_a (ILjava/util/Random;I)Lnet/minecraft/item/Item;
-MD: net/minecraft/block/BlockFurnace/createNewTileEntity (Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity; net/minecraft/block/BlockFurnace/func_149915_a (Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;
-MD: net/minecraft/block/BlockFurnace/breakBlock (Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;I)V net/minecraft/block/BlockFurnace/func_149749_a (Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;I)V
-MD: net/minecraft/block/BlockFurnace/onBlockPlacedBy (Lnet/minecraft/world/World;IIILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V net/minecraft/block/BlockFurnace/func_149689_a (Lnet/minecraft/world/World;IIILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V
-MD: net/minecraft/block/BlockFurnace/onBlockActivated (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;IFFF)Z net/minecraft/block/BlockFurnace/func_149727_a (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;IFFF)Z
-MD: net/minecraft/block/BlockFurnace/registerBlockIcons (Lnet/minecraft/client/renderer/texture/IIconRegister;)V net/minecraft/block/BlockFurnace/func_149651_a (Lnet/minecraft/client/renderer/texture/IIconRegister;)V
-MD: net/minecraft/block/BlockFurnace/updateFurnaceBlockState (ZLnet/minecraft/world/World;III)V net/minecraft/block/BlockFurnace/func_149931_a (ZLnet/minecraft/world/World;III)V
-MD: net/minecraft/block/BlockFurnace/onBlockAdded (Lnet/minecraft/world/World;III)V net/minecraft/block/BlockFurnace/func_149726_b (Lnet/minecraft/world/World;III)V
-MD: net/minecraft/block/BlockFurnace/randomDisplayTick (Lnet/minecraft/world/World;IIILjava/util/Random;)V net/minecraft/block/BlockFurnace/func_149734_b (Lnet/minecraft/world/World;IIILjava/util/Random;)V
-MD: net/minecraft/block/BlockFurnace/getItem (Lnet/minecraft/world/World;III)Lnet/minecraft/item/Item; net/minecraft/block/BlockFurnace/func_149694_d (Lnet/minecraft/world/World;III)Lnet/minecraft/item/Item;
-MD: net/minecraft/block/BlockFurnace/func_149930_e (Lnet/minecraft/world/World;III)V net/minecraft/block/BlockFurnace/func_149930_e (Lnet/minecraft/world/World;III)V
-MD: net/minecraft/block/BlockFurnace/getComparatorInputOverride (Lnet/minecraft/world/World;IIII)I net/minecraft/block/BlockFurnace/func_149736_g (Lnet/minecraft/world/World;IIII)I
+MD: net/minecraft/block/BlockFurnace/hasComparatorInputOverride ()Z comdotgame/com/search/BlockBrockFurnace/func_149740_M ()Z
+MD: net/minecraft/block/BlockFurnace/getIcon (II)Lnet/minecraft/util/IIcon; comdotgame/com/search/BlockBrockFurnace/func_149691_a (II)Lnet/minecraft/util/IIcon;
+MD: net/minecraft/block/BlockFurnace/getItemDropped (ILjava/util/Random;I)Lnet/minecraft/item/Item; comdotgame/com/search/BlockBrockFurnace/func_149650_a (ILjava/util/Random;I)Lnet/minecraft/item/Item;
+MD: net/minecraft/block/BlockFurnace/createNewTileEntity (Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity; comdotgame/com/search/BlockBrockFurnace/func_149915_a (Lnet/minecraft/world/World;I)Lnet/minecraft/tileentity/TileEntity;
+MD: net/minecraft/block/BlockFurnace/breakBlock (Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;I)V comdotgame/com/search/BlockBrockFurnace/func_149749_a (Lnet/minecraft/world/World;IIILnet/minecraft/block/Block;I)V
+MD: net/minecraft/block/BlockFurnace/onBlockPlacedBy (Lnet/minecraft/world/World;IIILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V comdotgame/com/search/BlockBrockFurnace/func_149689_a (Lnet/minecraft/world/World;IIILnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/item/ItemStack;)V
+MD: net/minecraft/block/BlockFurnace/onBlockActivated (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;IFFF)Z comdotgame/com/search/BlockBrockFurnace/func_149727_a (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;IFFF)Z
+MD: net/minecraft/block/BlockFurnace/registerBlockIcons (Lnet/minecraft/client/renderer/texture/IIconRegister;)V comdotgame/com/search/BlockBrockFurnace/func_149651_a (Lnet/minecraft/client/renderer/texture/IIconRegister;)V
+MD: net/minecraft/block/BlockFurnace/updateFurnaceBlockState (ZLnet/minecraft/world/World;III)V comdotgame/com/search/BlockBrockFurnace/func_149931_a (ZLnet/minecraft/world/World;III)V
+MD: net/minecraft/block/BlockFurnace/onBlockAdded (Lnet/minecraft/world/World;III)V comdotgame/com/search/BlockBrockFurnace/func_149726_b (Lnet/minecraft/world/World;III)V
+MD: net/minecraft/block/BlockFurnace/randomDisplayTick (Lnet/minecraft/world/World;IIILjava/util/Random;)V comdotgame/com/search/BlockBrockFurnace/func_149734_b (Lnet/minecraft/world/World;IIILjava/util/Random;)V
+MD: net/minecraft/block/BlockFurnace/getItem (Lnet/minecraft/world/World;III)Lnet/minecraft/item/Item; comdotgame/com/search/BlockBrockFurnace/func_149694_d (Lnet/minecraft/world/World;III)Lnet/minecraft/item/Item;
+MD: net/minecraft/block/BlockFurnace/func_149930_e (Lnet/minecraft/world/World;III)V comdotgame/com/search/BlockBrockFurnace/func_149930_e (Lnet/minecraft/world/World;III)V
+MD: net/minecraft/block/BlockFurnace/getComparatorInputOverride (Lnet/minecraft/world/World;IIII)I comdotgame/com/search/BlockBrockFurnace/func_149736_g (Lnet/minecraft/world/World;IIII)I
 MD: net/minecraft/block/BlockGlass/canSilkHarvest ()Z net/minecraft/block/BlockGlass/func_149700_E ()Z
 MD: net/minecraft/block/BlockGlass/quantityDropped (Ljava/util/Random;)I net/minecraft/block/BlockGlass/func_149745_a (Ljava/util/Random;)I
 MD: net/minecraft/block/BlockGlass/renderAsNormalBlock ()Z net/minecraft/block/BlockGlass/func_149686_d ()Z

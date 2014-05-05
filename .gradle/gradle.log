@@ -5,7 +5,6 @@
  R4wk, ZeuX, IngisKahn      
  MCP Data version : unknown
 ****************************
-C:\shovels\build\natives
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
@@ -17,7 +16,7 @@ C:\shovels\build\natives
 :classes
 :jar
 :extractUserDev
-:genSrgs UP-TO-DATE
+:genSrgs
 :reobf
 :assemble
 :compileTestJava UP-TO-DATE
@@ -29,4 +28,4 @@ C:\shovels\build\natives
 
 BUILD SUCCESSFUL
 
-Total time: 34.388 secs
+Total time: 1 mins 24.759 secs
